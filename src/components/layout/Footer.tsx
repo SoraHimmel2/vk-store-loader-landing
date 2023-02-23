@@ -24,7 +24,7 @@ const Footer: React.FunctionComponent = () => {
             href='#'
             className='my-3 block text-sm font-medium text-gray-300 duration-700 hover:text-green-500'
           >
-            Utility-First
+            Upcoming
           </a>
         </div>
 
@@ -34,10 +34,10 @@ const Footer: React.FunctionComponent = () => {
           </div>
 
           <a
-            href='#'
+            href='https://www.youtube.com/channel/UC918y0O0XX2caUtXz6mqkbA'
             className='my-3 block text-sm font-medium text-gray-300 duration-700 hover:text-green-500'
           >
-            Configuration
+            SoraHimmel
           </a>
         </div>
       </div>
