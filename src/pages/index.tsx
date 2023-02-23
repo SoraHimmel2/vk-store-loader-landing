@@ -73,8 +73,8 @@ export default function HomePage() {
           imageContainerClass='flex   flex-col h-[100%] '
           textClass='text-left mx-4 my-2 sm:w-[85%] md:w-[75%] lg:w-[65%] text-2xl sm:text-3xl self-start'
           textTitle='Отправить товар по номеру'
-          textTitleClass='text-left mx-4 sm:w-[80%] md:w-[60%] text-3xl sm:text-4xl'
-          className='  mt-20 grid grid-cols-1  justify-items-center border-r border-black p-2 sm:grid-cols-2 sm:border-none'
+          textTitleClass='text-left mx-4 my-4 sm:w-[80%] md:w-[60%] text-3xl sm:text-4xl'
+          className='  mt-20 grid grid-cols-1  justify-items-center  p-2 sm:grid-cols-2 sm:border-none'
           position={imageLeft}
           section='send'
         />
@@ -85,10 +85,10 @@ export default function HomePage() {
           imageSrc='./images/update.jpg'
           imageClass=' sm:h-[50%] lg:h-[65%] xl:h-[100%]'
           imageContainerClass='flex   flex-col h-[100%] '
-          textClass='text-left  my-2 sm:w-[85%] md:w-[75%] lg:w-[65%] text-2xl sm:text-3xl self-start'
+          textClass='text-left mx-4 my-2 sm:w-[85%] md:w-[75%] lg:w-[65%] text-2xl sm:text-3xl self-start'
           textTitle='Обновить товар по номеру'
-          textTitleClass='text-left sm:w-[80%] md:w-[60%] text-3xl sm:text-4xl'
-          className='m-2  grid grid-cols-1  justify-items-center border-r border-black p-2 sm:grid-cols-2 sm:border-none'
+          textTitleClass='text-left sm:w-[80%] my-4  mx-4 sm:mx-0 md:w-[60%] text-3xl sm:text-4xl'
+          className='m-2  grid grid-cols-1  justify-items-center  p-2 sm:grid-cols-2 sm:border-none'
           position={imageRight}
           section='update'
         />
@@ -101,8 +101,8 @@ export default function HomePage() {
           imageContainerClass='flex   flex-col h-[100%] '
           textClass='text-left mx-4 my-2 sm:w-[85%] md:w-[75%] lg:w-[65%] text-2xl sm:text-3xl self-start'
           textTitle='Удалить товар по номеру'
-          textTitleClass='text-left sm:w-[80%] mx-4 md:w-[60%] text-3xl sm:text-4xl'
-          className='m-2  grid grid-cols-1  justify-items-center border-r border-black p-2 sm:grid-cols-2 sm:border-none'
+          textTitleClass='text-left sm:w-[80%] mx-4 my-4 md:w-[60%] text-3xl sm:text-4xl'
+          className='m-2  grid grid-cols-1  justify-items-center  p-2 sm:grid-cols-2 sm:border-none'
           position={imageLeft}
           section='delete'
         />
@@ -114,8 +114,8 @@ export default function HomePage() {
           imageContainerClass='flex   flex-col h-[100%] '
           textClass='text-left mx-4 my-2 sm:w-[85%] md:w-[75%] lg:w-[65%] text-2xl sm:text-3xl self-start'
           textTitle='Отправить все'
-          textTitleClass='text-left sm:w-[80%] md:w-[60%] text-3xl sm:text-4xl'
-          className='m-2  grid grid-cols-1  justify-items-center border-r border-black p-2 sm:grid-cols-2 sm:border-none'
+          textTitleClass='text-left sm:w-[80%]  mx-4 my-4 md:w-[60%] sm:mx-0 text-3xl sm:text-4xl'
+          className='m-2  grid grid-cols-1  justify-items-center  p-2 sm:grid-cols-2 sm:border-none'
           position={imageRight}
           section='send_all'
         />
@@ -127,8 +127,8 @@ export default function HomePage() {
           imageContainerClass='flex   flex-col h-[100%] '
           textClass='text-left mx-4 my-2 sm:w-[85%] md:w-[75%] lg:w-[65%] text-2xl sm:text-3xl self-start'
           textTitle='Сверка товаров'
-          textTitleClass='text-left sm:w-[80%] mx-4 md:w-[60%] text-3xl sm:text-4xl'
-          className='m-2  grid grid-cols-1  justify-items-center border-r border-black p-2 sm:grid-cols-2 sm:border-none'
+          textTitleClass='text-left sm:w-[80%] mx-4 my-4 md:w-[60%] text-3xl sm:text-4xl'
+          className='m-2  grid grid-cols-1  justify-items-center  p-2 sm:grid-cols-2 sm:border-none'
           position={imageLeft}
           section='check_goods'
         />
